@@ -85,6 +85,7 @@
       height: auto;
       border-radius: 2px;
       padding: 16px;
+      background-color: white;
       color: #454545;
       margin-top: 10px;
       font-size: 1rem;
@@ -124,13 +125,13 @@
   }
 
   @media(max-width:480px) {
-    .user-input input{
-       width: 74%; 
-    }
+      .user-input input {
+          width: 74%;
+      }
   }
 
   @media(max-width:320px) {
-    .user-input input{
-       width: 60%; 
-    }
+      .user-input input {
+          width: 60%;
+      }
   }
